@@ -1,6 +1,6 @@
 {
   "name": "@upleveled/eslint-plugin-upleveled",
-  "version": "1.0.0-prerelease.1",
+  "version": "1.0.0",
   "main": "index.js",
   "repository": "upleveled/eslint-plugin-upleveled",
   "author": "UpLeveled (https://github.com/upleveled)",
