@@ -1,0 +1,4 @@
+*.js
+
+# Next.js build folder
+.next
