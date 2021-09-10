@@ -12,9 +12,9 @@ const rule: TSESLint.RuleModule<'noInputTypeText' | 'noButtonTypeSubmit', []> =
       },
       messages: {
         noInputTypeText:
-          'The attribute type="text" is the default for <input> elements and can be omitted https://github.com/upleveled/eslint-plugin-upleveled/blob/main/docs/rules/no-unnecessary-html-attributes.md',
+          'The attribute type="text" is the default for <input> elements and can be omitted',
         noButtonTypeSubmit:
-          'The attribute type="submit" is the default for <button> elements and can be omitted https://github.com/upleveled/eslint-plugin-upleveled/blob/main/docs/rules/no-unnecessary-html-attributes.md',
+          'The attribute type="submit" is the default for <button> elements and can be omitted',
       },
       type: 'suggestion',
       schema: [
