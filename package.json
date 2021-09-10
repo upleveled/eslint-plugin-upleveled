@@ -2,7 +2,7 @@
   "name": "@upleveled/eslint-plugin-upleveled",
   "version": "1.0.0-prerelease.1",
   "main": "index.js",
-  "repository": "git@github.com:upleveled/eslint-plugin-upleveled.git",
+  "repository": "upleveled/eslint-plugin-upleveled",
   "author": "UpLeveled (https://github.com/upleveled)",
   "contributors": [
     "José Fernando Höwer Barbosa <josehowerupn@gmail.com>",
