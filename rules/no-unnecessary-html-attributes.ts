@@ -6,7 +6,6 @@ const rule: TSESLint.RuleModule<'noInputTypeText' | 'noButtonTypeSubmit', []> =
     meta: {
       docs: {
         description: 'Prevent unnecessary attributes on HTML elements in JSX',
-        category: 'Best Practices',
         recommended: 'warn',
         url: 'https://github.com/upleveled/eslint-plugin-upleveled/blob/main/docs/rules/no-unnecessary-html-attributes.md',
       },
