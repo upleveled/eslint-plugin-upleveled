@@ -1,5 +1,13 @@
 {
   "extends": [
-    "config:base"
+    "github>karlhorky/renovate-config"
+  ],
+  "packageRules": [
+    {
+      "matchDepTypes": [
+        "peerDependencies"
+      ],
+      "rangeStrategy": "bump"
+    }
   ]
 }
