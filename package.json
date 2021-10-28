@@ -27,7 +27,7 @@
     "@typescript-eslint/experimental-utils": "5.2.0",
     "@typescript-eslint/parser": "5.2.0",
     "@typescript-eslint/typescript-estree": "5.2.0",
-    "@upleveled/eslint-config-upleveled": "1.18.0",
+    "@upleveled/eslint-config-upleveled": "2.0.0",
     "babel-eslint": "10.1.0",
     "eslint": "8.1.0",
     "eslint-config-react-app": "6.0.0",
