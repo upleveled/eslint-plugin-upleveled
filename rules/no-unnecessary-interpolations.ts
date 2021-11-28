@@ -1,7 +1,7 @@
 import { TSESLint } from '@typescript-eslint/experimental-utils';
 import { TSESTree } from '@typescript-eslint/typescript-estree';
 
-const rule: TSESLint.RuleModule<'noUnnecessaryInterpolations', []> = {
+const rule: TSESLint.RuleModule<'noUnnecessaryInterpolations'> = {
   meta: {
     docs: {
       description: 'Prevent unnecessary interpolations in template strings',

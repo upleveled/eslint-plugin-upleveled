@@ -1,7 +1,7 @@
 import { TSESLint } from '@typescript-eslint/experimental-utils';
 import { TSESTree } from '@typescript-eslint/typescript-estree';
 
-const rule: TSESLint.RuleModule<'noInputTypeText' | 'noButtonTypeSubmit', []> =
+const rule: TSESLint.RuleModule<'noInputTypeText' | 'noButtonTypeSubmit'> =
   {
     meta: {
       docs: {
