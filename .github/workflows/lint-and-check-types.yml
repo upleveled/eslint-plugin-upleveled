@@ -1,0 +1,16 @@
+name: Lint and Check Types
+on: push
+
+jobs:
+  lint-and-check-types:
+    name: Lint and Check Types
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+      - name: Install deps and build (with cache)
+        uses: bahmutov/npm-install@v1
+      - run: yarn eslint . --max-warnings 0
+      - run: yarn tsc
