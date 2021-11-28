@@ -18,14 +18,6 @@
     "skipLibCheck": true,
     "strict": true
   },
-  "include": [
-    ".eslintrc.cjs",
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    "**/*.js",
-    "**/*.cjs",
-    "**/*.mjs"
-  ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.js", "**/*.mjs"],
   "exclude": ["node_modules", "build"]
 }
