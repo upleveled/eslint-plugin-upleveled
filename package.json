@@ -45,6 +45,10 @@
     "typescript": "4.5.4"
   },
   "resolutions": {
+    "@typescript-eslint/eslint-plugin": "5.8.0",
+    "@typescript-eslint/experimental-utils": "5.8.0",
+    "@typescript-eslint/parser": "5.8.0",
+    "@typescript-eslint/typescript-estree": "5.8.0",
     "eslint-plugin-react": "7.27.1",
     "eslint-plugin-testing-library": "5.0.1"
   },
