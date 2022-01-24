@@ -7,7 +7,7 @@ Example of **incorrect** code:
 ```jsx
 <input type="text" />
 
-<button type="submit">submit</button>
+<button type="submit">Submit</button>
 ```
 
 Examples of **correct** code:
@@ -16,6 +16,6 @@ Examples of **correct** code:
 <input />
 <input type="number" />
 
-<button>submit</button>
-<button type="button">submit</button>
+<button>Submit</button>
+<button type="button">Submit</button>
 ```
