@@ -8,6 +8,7 @@ Example of **incorrect** code:
 function FormField() {
   return (
     <label htmlFor="firstName">
+      First name
       <input id="firstName" />
     </label>
   );
@@ -20,6 +21,7 @@ Examples of **correct** code:
 function FormField() {
   return (
     <label>
+      First name
       <input />
     </label>
   );
