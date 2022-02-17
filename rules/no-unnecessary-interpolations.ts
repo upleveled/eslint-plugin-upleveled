@@ -1,5 +1,5 @@
-import { TSESLint } from '@typescript-eslint/experimental-utils';
 import { TSESTree } from '@typescript-eslint/typescript-estree';
+import { TSESLint } from '@typescript-eslint/utils';
 
 const rule: TSESLint.RuleModule<'noUnnecessaryInterpolations'> = {
   meta: {

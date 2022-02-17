@@ -1,8 +1,8 @@
-import { ASTUtils, TSESLint } from '@typescript-eslint/experimental-utils';
 import {
   Expression,
   JSXEmptyExpression,
 } from '@typescript-eslint/types/dist/ast-spec';
+import { ASTUtils, TSESLint } from '@typescript-eslint/utils';
 import { Scope } from '@typescript-eslint/utils/dist/ts-eslint';
 
 function getFunctionDeclarationOrExpressionByExpression(
