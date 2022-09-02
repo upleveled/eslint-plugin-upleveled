@@ -2,6 +2,7 @@ import { TSESTree } from '@typescript-eslint/typescript-estree';
 import { TSESLint } from '@typescript-eslint/utils';
 
 const rule: TSESLint.RuleModule<'noInputTypeText' | 'noButtonTypeSubmit'> = {
+  defaultOptions: [],
   meta: {
     docs: {
       description: 'Prevent unnecessary attributes on HTML elements in JSX',
