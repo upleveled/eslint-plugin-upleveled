@@ -15,6 +15,7 @@ function getFunctionDeclarationOrExpressionByExpression(
 }
 
 const rule: TSESLint.RuleModule<'noSubmitHandlerWithoutPreventDefault'> = {
+  defaultOptions: [],
   meta: {
     docs: {
       description:

@@ -2,6 +2,7 @@ import { TSESTree } from '@typescript-eslint/typescript-estree';
 import { TSESLint } from '@typescript-eslint/utils';
 
 const rule: TSESLint.RuleModule<'noLabelFor' | 'noInputId'> = {
+  defaultOptions: [],
   meta: {
     docs: {
       description:
