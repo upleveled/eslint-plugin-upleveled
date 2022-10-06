@@ -20,9 +20,9 @@
   "devDependencies": {
     "@babel/eslint-parser": "7.19.1",
     "@next/eslint-plugin-next": "12.3.1",
-    "@ts-safeql/eslint-plugin": "0.0.17",
+    "@ts-safeql/eslint-plugin": "0.0.18",
     "@types/eslint": "8.4.6",
-    "@types/node": "18.8.2",
+    "@types/node": "18.8.3",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
     "@typescript-eslint/eslint-plugin": "5.39.0",
