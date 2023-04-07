@@ -29,7 +29,7 @@
     "@typescript-eslint/parser": "5.57.1",
     "@typescript-eslint/typescript-estree": "5.57.1",
     "@typescript-eslint/utils": "5.57.1",
-    "@upleveled/eslint-config-upleveled": "3.20.0",
+    "@upleveled/eslint-config-upleveled": "4.0.2",
     "@upleveled/eslint-plugin-upleveled": "2.1.6",
     "@babel/eslint-parser": "7.21.3",
     "eslint": "8.37.0",
