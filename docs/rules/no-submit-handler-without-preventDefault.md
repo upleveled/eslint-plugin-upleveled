@@ -1,4 +1,4 @@
-# Prevent default form submission behavior by enforcing usage of `event.preventDefault()` (@upleveled/upleveled/no-submit-handler-without-preventDefault)
+# Prevent default form submission behavior by enforcing usage of `event.preventDefault()` (upleveled/no-submit-handler-without-preventDefault)
 
 The default behavior of the HTML `<form>` element is to submit data to a server with less control than JavaScript allows us. To prevent this, the `event.preventDefault()` method can be used.
 

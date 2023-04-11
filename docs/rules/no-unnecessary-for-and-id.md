@@ -1,4 +1,4 @@
-# Prevent unnecessary `for` and `id` attributes on input elements nested in labels (@upleveled/upleveled/no-unnecessary-for-and-id)
+# Prevent unnecessary `for` and `id` attributes on input elements nested in labels (upleveled/no-unnecessary-for-and-id)
 
 When an `<input>` element is nested inside a `<label>` in HTML, the `for` attribute on the `<label>` and the `id` attribute on the `<input>` are not required.
 
