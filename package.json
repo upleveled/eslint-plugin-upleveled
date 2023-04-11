@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-upleveled",
-  "version": "2.1.6",
+  "version": "2.1.7",
   "main": "index.js",
   "repository": "upleveled/eslint-plugin-upleveled",
   "author": "UpLeveled (https://github.com/upleveled)",
