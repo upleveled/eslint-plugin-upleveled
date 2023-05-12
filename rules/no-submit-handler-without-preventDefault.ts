@@ -71,7 +71,7 @@ const rule: TSESLint.RuleModule<'noSubmitHandlerWithoutPreventDefault'> = {
             // No function parameters
             submitHandlerFunction.params.length < 1 ||
             // First function parameter is not an identifier
-            firstFunctionParameter.type !== 'Identifier' ||
+            firstFunctionParameter?.type !== 'Identifier' ||
             // Function body does not contain a call to event.preventDefault()
             !submitHandlerFunction.body.body.some((bodyNode) => {
               return (
