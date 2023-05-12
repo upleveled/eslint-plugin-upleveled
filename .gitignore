@@ -2,3 +2,4 @@ node_modules
 .eslintcache
 index.js
 rules/*.js
+*.tsbuildinfo
