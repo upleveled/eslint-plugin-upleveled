@@ -1,14 +1,14 @@
 {
   "name": "eslint-plugin-upleveled",
   "version": "2.1.7",
-  "main": "index.js",
   "repository": "upleveled/eslint-plugin-upleveled",
+  "license": "MIT",
   "author": "UpLeveled (https://github.com/upleveled)",
   "contributors": [
     "José Fernando Höwer Barbosa <josehowerupn@gmail.com>",
     "Karl Horky <karl.horky@gmail.com>"
   ],
-  "license": "MIT",
+  "main": "index.js",
   "files": [
     "index.js",
     "rules/*.js"
@@ -20,7 +20,7 @@
   "devDependencies": {
     "@types/eslint": "8.37.0",
     "@types/node": "20.1.3",
-    "eslint-config-upleveled": "4.3.0",
+    "eslint-config-upleveled": "4.3.1",
     "typescript": "5.0.4"
   },
   "peerDependencies": {
