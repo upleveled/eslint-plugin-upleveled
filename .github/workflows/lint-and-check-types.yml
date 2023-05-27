@@ -16,5 +16,32 @@ jobs:
           node-version: 'lts/*'
           cache: 'pnpm'
       - run: pnpm install
+
+      # Fix Renovate running `pnpm install --recursive` causing `version: 'link:'` for eslint-plugin-upleveled
+      # <add issue URL>
+      - name: Fix pnpm lockfile after Renovate pnpm --recursive
+        env:
+          GITHUB_TOKEN: ${{ secrets.RENOVATE_PNPM_RECURSIVE_FIX_GITHUB_TOKEN }}
+        run: |
+          if sed -nE '/^\s+eslint-plugin-upleveled:\n\s+specifier: [0-9.-]+\n\s+version: '\''link:'\''$/q0' pnpm-lock.yaml; then
+            echo "version: 'link:' found in pnpm-lock.yaml"
+            pnpm add --save-dev eslint-plugin-upleveled
+          else
+            echo "version: 'link:' not found in pnpm-lock.yaml"
+            exit 0
+          fi
+
+          git add package.json pnpm-lock.yaml
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes to commit, exiting"
+            exit 0
+          fi
+
+          git config user.email github-actions[bot]@users.noreply.github.com
+          git config user.name github-actions[bot]
+
+          git commit -m "Fix pnpm lockfile after Renovate pnpm --recursive"
+          git push origin HEAD:${{ github.ref }}
+
       - run: pnpm eslint . --max-warnings 0
       - run: pnpm tsc
