@@ -18,13 +18,13 @@
     "prepare": "pnpm build"
   },
   "devDependencies": {
-    "@types/eslint": "8.37.0",
-    "@types/node": "20.2.1",
-    "eslint-config-upleveled": "4.3.2",
+    "@types/eslint": "8.40.0",
+    "@types/node": "20.2.5",
+    "eslint-config-upleveled": "4.5.0",
     "eslint-plugin-upleveled": "2.1.8",
     "typescript": "5.0.4"
   },
   "peerDependencies": {
-    "eslint": "^8.40.0"
+    "eslint": "^8.41.0"
   }
 }
