@@ -1,13 +1,10 @@
-import {
-  Expression,
-  JSXEmptyExpression,
-} from '@typescript-eslint/types/dist/generated/ast-spec';
+import type { TSESTree } from '@typescript-eslint/types';
 import { ASTUtils, TSESLint } from '@typescript-eslint/utils';
-import { Scope } from '@typescript-eslint/utils/dist/ts-eslint';
+import { Scope } from '@typescript-eslint/utils/ts-eslint';
 
 function getFunctionDeclarationOrExpressionByExpression(
   scope: Scope.Scope,
-  expression: Expression | JSXEmptyExpression,
+  expression: TSESTree.Expression | TSESTree.JSXEmptyExpression,
 ) {
   if (expression.type !== 'Identifier') return expression;
   const node = ASTUtils.findVariable(scope, expression)?.defs[0]?.node;
@@ -20,7 +17,7 @@ const rule: TSESLint.RuleModule<'noSubmitHandlerWithoutPreventDefault'> = {
     docs: {
       description:
         'Prevent default form submission behavior by enforcing usage of `event.preventDefault()`',
-      recommended: 'warn',
+      recommended: 'recommended',
       url: 'https://github.com/upleveled/eslint-plugin-upleveled/blob/main/docs/rules/no-submit-handler-without-preventDefault.md',
     },
     messages: {
@@ -41,7 +38,7 @@ const rule: TSESLint.RuleModule<'noSubmitHandlerWithoutPreventDefault'> = {
       // eslint-disable-next-line @typescript-eslint/naming-convention
       JSXAttribute(node) {
         if (
-          node.parent?.type === 'JSXOpeningElement' &&
+          node.parent.type === 'JSXOpeningElement' &&
           node.parent.name.type === 'JSXIdentifier' &&
           node.parent.name.name === 'form' &&
           node.name.name === 'onSubmit' &&

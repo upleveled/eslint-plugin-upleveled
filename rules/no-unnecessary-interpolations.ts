@@ -6,7 +6,7 @@ const rule: TSESLint.RuleModule<'noUnnecessaryInterpolations'> = {
   meta: {
     docs: {
       description: 'Prevent unnecessary interpolations in template strings',
-      recommended: 'warn',
+      recommended: 'recommended',
       url: 'https://github.com/upleveled/eslint-plugin-upleveled/blob/main/docs/rules/no-unnecessary-interpolations.md',
     },
     messages: {
