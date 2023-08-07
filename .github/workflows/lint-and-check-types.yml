@@ -15,7 +15,6 @@ jobs:
         with:
           node-version: 'lts/*'
           cache: 'pnpm'
-      - run: pnpm install
 
       # Fix Renovate running `pnpm install --recursive` causing `version: 'link:'` for eslint-plugin-upleveled
       # <add issue URL>
@@ -43,5 +42,6 @@ jobs:
           git commit -m "Fix pnpm lockfile after Renovate pnpm --recursive"
           git push origin HEAD:${{ github.ref }}
 
+      - run: pnpm install
       - run: pnpm eslint . --max-warnings 0
       - run: pnpm tsc
