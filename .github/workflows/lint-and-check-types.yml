@@ -18,7 +18,7 @@ jobs:
       - run: pnpm install
 
       # Fix Renovate running `pnpm install --recursive` causing `version: 'link:'` for eslint-plugin-upleveled
-      # <add issue URL>
+      # https://github.com/renovatebot/renovate/discussions/22458
       - name: Fix pnpm lockfile after Renovate pnpm --recursive
         env:
           GITHUB_TOKEN: ${{ secrets.RENOVATE_PNPM_RECURSIVE_FIX_GITHUB_TOKEN }}
