@@ -33,7 +33,7 @@
   },
   "pnpm": {
     "overrides": {
-      "@typescript-eslint/types": "6.7.2"
+      "@typescript-eslint/types": "6.7.3"
     }
   }
 }
