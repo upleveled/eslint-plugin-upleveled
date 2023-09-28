@@ -20,7 +20,7 @@
   "devDependencies": {
     "@types/eslint": "8.44.3",
     "@types/node": "20.7.1",
-    "@typescript-eslint/types": "6.7.3",
+    "@typescript-eslint/types": "6.7.2",
     "eslint-config-upleveled": "5.0.4",
     "eslint-plugin-upleveled": "2.1.9",
     "typescript": "5.2.2"
@@ -33,7 +33,7 @@
   },
   "pnpm": {
     "overrides": {
-      "@typescript-eslint/types": "6.7.3"
+      "@typescript-eslint/types": "6.7.2"
     }
   }
 }
