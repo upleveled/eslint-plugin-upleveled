@@ -21,7 +21,7 @@
     "@types/eslint": "8.44.6",
     "@types/node": "20.8.9",
     "@typescript-eslint/types": "6.9.0",
-    "eslint-config-upleveled": "5.1.1",
+    "eslint-config-upleveled": "7.0.1",
     "eslint-plugin-upleveled": "2.1.9",
     "typescript": "5.2.2"
   },
@@ -35,5 +35,6 @@
     "overrides": {
       "@typescript-eslint/types": "$@typescript-eslint/types"
     }
-  }
+  },
+  "type": "module"
 }
