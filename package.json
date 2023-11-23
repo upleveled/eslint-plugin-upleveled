@@ -35,5 +35,6 @@
     "overrides": {
       "@typescript-eslint/types": "$@typescript-eslint/types"
     }
-  }
+  },
+  "type": "module"
 }
