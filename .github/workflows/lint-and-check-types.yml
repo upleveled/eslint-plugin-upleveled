@@ -7,6 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Disable configuring $GITHUB_TOKEN in local git config
+          persist-credentials: false
       - uses: pnpm/action-setup@v2
         with:
           version: 'latest'
@@ -20,8 +23,6 @@ jobs:
       # Fix Renovate running `pnpm install --recursive` causing `version: 'link:'` for eslint-plugin-upleveled
       # https://github.com/renovatebot/renovate/discussions/22458
       - name: Fix pnpm lockfile after Renovate pnpm --recursive
-        env:
-          GITHUB_TOKEN: ${{ secrets.RENOVATE_PNPM_RECURSIVE_FIX_GITHUB_TOKEN }}
         run: |
           if sed -nE '/^\s+eslint-plugin-upleveled:\n\s+specifier: [0-9.-]+\n\s+version: '\''link:'\''$/q0' pnpm-lock.yaml; then
             echo "version: 'link:' found in pnpm-lock.yaml"
@@ -41,7 +42,10 @@ jobs:
           git config user.name github-actions[bot]
 
           git commit -m "Fix pnpm lockfile after Renovate pnpm --recursive"
-          git push origin HEAD:${{ github.ref }}
+
+          # Credit for oauth2 syntax is the ad-m/github-push-action GitHub Action:
+          # https://github.com/ad-m/github-push-action/blob/d91a481090679876dfc4178fef17f286781251df/start.sh#L43-L55
+          git push https://oauth2:${{ secrets.PNPM_PATCH_UPDATE_GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
 
       - run: pnpm eslint . --max-warnings 0
       - run: pnpm tsc
