@@ -20,7 +20,7 @@
   "devDependencies": {
     "@types/eslint": "8.56.0",
     "@types/node": "20.10.5",
-    "@typescript-eslint/types": "6.15.0",
+    "@typescript-eslint/types": "6.16.0",
     "eslint-config-upleveled": "7.5.0",
     "eslint-plugin-upleveled": "2.1.9",
     "typescript": "5.3.3"
