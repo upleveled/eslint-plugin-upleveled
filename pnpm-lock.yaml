@@ -27,7 +27,7 @@ devDependencies:
     version: 7.7.1(@babel/core@7.21.4)(@types/eslint@8.56.2)(@types/node@20.11.17)(@types/react-dom@18.2.18)(@types/react@18.2.55)(eslint@8.56.0)(globals@13.24.0)(typescript@5.3.3)
   eslint-plugin-upleveled:
     specifier: 2.1.9
-    version: 'link:'
+    version: 2.1.9(eslint@8.56.0)
   typescript:
     specifier: 5.3.3
     version: 5.3.3
