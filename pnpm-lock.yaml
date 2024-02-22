@@ -14,20 +14,20 @@ dependencies:
 
 devDependencies:
   '@types/eslint':
-    specifier: 8.56.2
-    version: 8.56.2
+    specifier: 8.56.3
+    version: 8.56.3
   '@types/node':
-    specifier: 20.11.19
-    version: 20.11.19
+    specifier: 20.11.20
+    version: 20.11.20
   '@typescript-eslint/types':
     specifier: 7.0.2
     version: 7.0.2
   eslint-config-upleveled:
     specifier: 7.8.1
-    version: 7.8.1(@babel/core@7.21.4)(@types/eslint@8.56.2)(@types/node@20.11.19)(@types/react-dom@18.2.19)(@types/react@18.2.57)(eslint@8.56.0)(globals@14.0.0)(typescript@5.3.3)
+    version: 7.8.1(@babel/core@7.21.4)(@types/eslint@8.56.3)(@types/node@20.11.20)(@types/react-dom@18.2.19)(@types/react@18.2.57)(eslint@8.56.0)(globals@14.0.0)(typescript@5.3.3)
   eslint-plugin-upleveled:
     specifier: 2.1.9
-    version: 2.1.9(eslint@8.56.0)
+    version: 'link:'
   typescript:
     specifier: 5.3.3
     version: 5.3.3
@@ -396,8 +396,8 @@ packages:
     dev: true
     optional: true
 
-  /@types/eslint@8.56.2:
-    resolution: {integrity: sha512-uQDwm1wFHmbBbCZCqAlq6Do9LYwByNZHWzXppSnay9SuwJ+VRbjkbLABer54kcPnMSlG6Fdiy2yaFXm/z9Z5gw==}
+  /@types/eslint@8.56.3:
+    resolution: {integrity: sha512-PvSf1wfv2wJpVIFUMSb+i4PvqNYkB9Rkp9ZDO3oaWzq4SKhsQk4mrMBr3ZH06I0hKrVGLBacmgl8JM4WVjb9dg==}
     dependencies:
       '@types/estree': 1.0.0
       '@types/json-schema': 7.0.12
@@ -415,8 +415,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/node@20.11.19:
-    resolution: {integrity: sha512-7xMnVEcZFu0DikYjWOlRq7NTPETrm7teqUT2WkQjrTIkEgUyyGdWsj/Zg8bEJt5TNklzbPD1X3fqfsHw3SpapQ==}
+  /@types/node@20.11.20:
+    resolution: {integrity: sha512-7/rR21OS+fq8IyHTgtLkDK949uzsa6n8BkziAKtPVpugIkO6D+/ooXMvzXxDnZrmtXVfjb1bKQafYpb8s89LOg==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -1205,7 +1205,7 @@ packages:
       parse-gitignore: 2.0.0
     dev: true
 
-  /eslint-config-upleveled@7.8.1(@babel/core@7.21.4)(@types/eslint@8.56.2)(@types/node@20.11.19)(@types/react-dom@18.2.19)(@types/react@18.2.57)(eslint@8.56.0)(globals@14.0.0)(typescript@5.3.3):
+  /eslint-config-upleveled@7.8.1(@babel/core@7.21.4)(@types/eslint@8.56.3)(@types/node@20.11.20)(@types/react-dom@18.2.19)(@types/react@18.2.57)(eslint@8.56.0)(globals@14.0.0)(typescript@5.3.3):
     resolution: {integrity: sha512-jvJefouBciyUlxcxZJl59ORHxluUyE0yt9kWGmBhcl83UPkdMJGOhbxTsg9e0Ubpx1J0BaV34XtgiBga9ARBrA==}
     engines: {node: '>=20.9.0'}
     hasBin: true
@@ -1220,8 +1220,8 @@ packages:
     dependencies:
       '@babel/eslint-parser': 7.23.10(@babel/core@7.21.4)(eslint@8.56.0)
       '@next/eslint-plugin-next': 14.1.0
-      '@types/eslint': 8.56.2
-      '@types/node': 20.11.19
+      '@types/eslint': 8.56.3
+      '@types/node': 20.11.20
       '@types/react': 18.2.57
       '@types/react-dom': 18.2.19
       '@typescript-eslint/eslint-plugin': 7.0.2(@typescript-eslint/parser@7.0.2)(eslint@8.56.0)(typescript@5.3.3)
