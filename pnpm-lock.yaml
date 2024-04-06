@@ -17,14 +17,14 @@ devDependencies:
     specifier: 8.56.7
     version: 8.56.7
   '@types/node':
-    specifier: 20.12.4
-    version: 20.12.4
+    specifier: 20.12.5
+    version: 20.12.5
   '@typescript-eslint/types':
     specifier: 7.5.0
     version: 7.5.0
   eslint-config-upleveled:
     specifier: 7.8.3
-    version: 7.8.3(@babel/core@7.21.4)(@types/eslint@8.56.7)(@types/node@20.12.4)(@types/react-dom@18.2.22)(@types/react@18.2.67)(eslint@8.57.0)(globals@14.0.0)(typescript@5.4.4)
+    version: 7.8.3(@babel/core@7.21.4)(@types/eslint@8.56.7)(@types/node@20.12.5)(@types/react-dom@18.2.22)(@types/react@18.2.67)(eslint@8.57.0)(globals@14.0.0)(typescript@5.4.4)
   eslint-plugin-upleveled:
     specifier: 2.1.9
     version: 2.1.9(eslint@8.57.0)
@@ -415,8 +415,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/node@20.12.4:
-    resolution: {integrity: sha512-E+Fa9z3wSQpzgYQdYmme5X3OTuejnnTx88A6p6vkkJosR3KBz+HpE3kqNm98VE6cfLFcISx7zW7MsJkH6KwbTw==}
+  /@types/node@20.12.5:
+    resolution: {integrity: sha512-BD+BjQ9LS/D8ST9p5uqBxghlN+S42iuNxjsUGjeZobe/ciXzk2qb1B6IXc6AnRLS+yFJRpN2IPEHMzwspfDJNw==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -1282,7 +1282,7 @@ packages:
       parse-gitignore: 2.0.0
     dev: true
 
-  /eslint-config-upleveled@7.8.3(@babel/core@7.21.4)(@types/eslint@8.56.7)(@types/node@20.12.4)(@types/react-dom@18.2.22)(@types/react@18.2.67)(eslint@8.57.0)(globals@14.0.0)(typescript@5.4.4):
+  /eslint-config-upleveled@7.8.3(@babel/core@7.21.4)(@types/eslint@8.56.7)(@types/node@20.12.5)(@types/react-dom@18.2.22)(@types/react@18.2.67)(eslint@8.57.0)(globals@14.0.0)(typescript@5.4.4):
     resolution: {integrity: sha512-OjGuRgc8xlvlH5BPUyAQEB28YSy1qBHgKzlOSWNAnBh9846CFs/cdhMVphz1rMAhHMgA0M5299uvO8t4MM8fiw==}
     engines: {node: '>=20.9.0'}
     hasBin: true
@@ -1298,7 +1298,7 @@ packages:
       '@babel/eslint-parser': 7.24.1(@babel/core@7.21.4)(eslint@8.57.0)
       '@next/eslint-plugin-next': 14.1.4
       '@types/eslint': 8.56.7
-      '@types/node': 20.12.4
+      '@types/node': 20.12.5
       '@types/react': 18.2.67
       '@types/react-dom': 18.2.22
       '@typescript-eslint/eslint-plugin': 7.3.1(@typescript-eslint/parser@7.3.1)(eslint@8.57.0)(typescript@5.4.4)
