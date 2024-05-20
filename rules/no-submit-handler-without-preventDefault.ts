@@ -1,6 +1,6 @@
-import type { TSESTree } from '@typescript-eslint/types';
+import type { TSESTree } from '@typescript-eslint/utils';
 import { ASTUtils, TSESLint } from '@typescript-eslint/utils';
-import { Scope } from '@typescript-eslint/utils/ts-eslint';
+import type { Scope } from '@typescript-eslint/utils/ts-eslint';
 
 function getFunctionDeclarationOrExpressionByExpression(
   scope: Scope.Scope,
@@ -17,7 +17,6 @@ const rule: TSESLint.RuleModule<'noSubmitHandlerWithoutPreventDefault'> = {
     docs: {
       description:
         'Prevent default form submission behavior by enforcing usage of `event.preventDefault()`',
-      recommended: 'recommended',
       url: 'https://github.com/upleveled/eslint-plugin-upleveled/blob/main/docs/rules/no-submit-handler-without-preventDefault.md',
     },
     messages: {
