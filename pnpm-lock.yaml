@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  '@typescript-eslint/types': 7.9.0
+  '@typescript-eslint/types': 8.0.0-alpha.14
 
 importers:
 
@@ -22,8 +22,8 @@ importers:
         specifier: 20.12.12
         version: 20.12.12
       '@typescript-eslint/types':
-        specifier: 7.9.0
-        version: 7.9.0
+        specifier: 8.0.0-alpha.14
+        version: 8.0.0-alpha.14
       eslint-config-upleveled:
         specifier: 8.1.2
         version: 8.1.2(@babel/core@7.21.4)(@types/eslint@8.56.10)(@types/node@20.12.12)(@types/react-dom@18.2.24)(@types/react@18.2.74)(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.9.1-alpha.6(eslint@9.3.0)(typescript@5.4.5))(eslint@9.3.0))(eslint@9.3.0)(globals@15.0.0)(typescript@5.4.5)
@@ -299,9 +299,9 @@ packages:
       typescript:
         optional: true
 
-  '@typescript-eslint/types@7.9.0':
-    resolution: {integrity: sha512-oZQD9HEWQanl9UfsbGVcZ2cGaR0YT5476xfWE0oE5kQa2sNK2frxOlkeacLOTh9po4AlUT5rtkGyYM5kew0z5w==}
-    engines: {node: ^18.18.0 || >=20.0.0}
+  '@typescript-eslint/types@8.0.0-alpha.14':
+    resolution: {integrity: sha512-2u0FBQ0usELnbTqZhHN6X8ngJlpCchFTroWFG5nvo0TOoiPYV+5AbGiRb0IWMsLfxSzeDJeasUzByVvOHn1t1A==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   '@typescript-eslint/typescript-estree@5.60.1':
     resolution: {integrity: sha512-hkX70J9+2M2ZT6fhti5Q2FoU9zb+GeZK2SLP1WZlvUDqdMbEKhexZODD1WodNRyO8eS+4nScvT0dts8IdaBzfw==}
@@ -1979,7 +1979,7 @@ snapshots:
   '@typescript-eslint/parser@7.9.1-alpha.6(eslint@9.3.0)(typescript@5.4.5)':
     dependencies:
       '@typescript-eslint/scope-manager': 7.9.1-alpha.6
-      '@typescript-eslint/types': 7.9.0
+      '@typescript-eslint/types': 8.0.0-alpha.14
       '@typescript-eslint/typescript-estree': 7.9.1-alpha.6(typescript@5.4.5)
       '@typescript-eslint/visitor-keys': 7.9.1-alpha.6
       debug: 4.3.4
@@ -1991,17 +1991,17 @@ snapshots:
 
   '@typescript-eslint/scope-manager@5.60.1':
     dependencies:
-      '@typescript-eslint/types': 7.9.0
+      '@typescript-eslint/types': 8.0.0-alpha.14
       '@typescript-eslint/visitor-keys': 5.60.1
 
   '@typescript-eslint/scope-manager@7.8.0':
     dependencies:
-      '@typescript-eslint/types': 7.9.0
+      '@typescript-eslint/types': 8.0.0-alpha.14
       '@typescript-eslint/visitor-keys': 7.8.0
 
   '@typescript-eslint/scope-manager@7.9.1-alpha.6':
     dependencies:
-      '@typescript-eslint/types': 7.9.0
+      '@typescript-eslint/types': 8.0.0-alpha.14
       '@typescript-eslint/visitor-keys': 7.9.1-alpha.6
 
   '@typescript-eslint/type-utils@7.9.1-alpha.6(eslint@9.3.0)(typescript@5.4.5)':
@@ -2016,11 +2016,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@typescript-eslint/types@7.9.0': {}
+  '@typescript-eslint/types@8.0.0-alpha.14': {}
 
   '@typescript-eslint/typescript-estree@5.60.1(typescript@5.4.5)':
     dependencies:
-      '@typescript-eslint/types': 7.9.0
+      '@typescript-eslint/types': 8.0.0-alpha.14
       '@typescript-eslint/visitor-keys': 5.60.1
       debug: 4.3.4
       globby: 11.1.0
@@ -2034,7 +2034,7 @@ snapshots:
 
   '@typescript-eslint/typescript-estree@7.8.0(typescript@5.4.5)':
     dependencies:
-      '@typescript-eslint/types': 7.9.0
+      '@typescript-eslint/types': 8.0.0-alpha.14
       '@typescript-eslint/visitor-keys': 7.8.0
       debug: 4.3.4
       globby: 11.1.0
@@ -2049,7 +2049,7 @@ snapshots:
 
   '@typescript-eslint/typescript-estree@7.9.1-alpha.6(typescript@5.4.5)':
     dependencies:
-      '@typescript-eslint/types': 7.9.0
+      '@typescript-eslint/types': 8.0.0-alpha.14
       '@typescript-eslint/visitor-keys': 7.9.1-alpha.6
       debug: 4.3.4
       globby: 11.1.0
@@ -2068,7 +2068,7 @@ snapshots:
       '@types/json-schema': 7.0.15
       '@types/semver': 7.5.8
       '@typescript-eslint/scope-manager': 5.60.1
-      '@typescript-eslint/types': 7.9.0
+      '@typescript-eslint/types': 8.0.0-alpha.14
       '@typescript-eslint/typescript-estree': 5.60.1(typescript@5.4.5)
       eslint: 9.3.0
       eslint-scope: 5.1.1
@@ -2083,7 +2083,7 @@ snapshots:
       '@types/json-schema': 7.0.15
       '@types/semver': 7.5.8
       '@typescript-eslint/scope-manager': 7.8.0
-      '@typescript-eslint/types': 7.9.0
+      '@typescript-eslint/types': 8.0.0-alpha.14
       '@typescript-eslint/typescript-estree': 7.8.0(typescript@5.4.5)
       eslint: 9.3.0
       semver: 7.6.2
@@ -2095,7 +2095,7 @@ snapshots:
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@9.3.0)
       '@typescript-eslint/scope-manager': 7.9.1-alpha.6
-      '@typescript-eslint/types': 7.9.0
+      '@typescript-eslint/types': 8.0.0-alpha.14
       '@typescript-eslint/typescript-estree': 7.9.1-alpha.6(typescript@5.4.5)
       eslint: 9.3.0
     transitivePeerDependencies:
@@ -2104,17 +2104,17 @@ snapshots:
 
   '@typescript-eslint/visitor-keys@5.60.1':
     dependencies:
-      '@typescript-eslint/types': 7.9.0
+      '@typescript-eslint/types': 8.0.0-alpha.14
       eslint-visitor-keys: 3.4.3
 
   '@typescript-eslint/visitor-keys@7.8.0':
     dependencies:
-      '@typescript-eslint/types': 7.9.0
+      '@typescript-eslint/types': 8.0.0-alpha.14
       eslint-visitor-keys: 3.4.3
 
   '@typescript-eslint/visitor-keys@7.9.1-alpha.6':
     dependencies:
-      '@typescript-eslint/types': 7.9.0
+      '@typescript-eslint/types': 8.0.0-alpha.14
       eslint-visitor-keys: 3.4.3
 
   acorn-jsx@5.3.2(acorn@8.11.3):
