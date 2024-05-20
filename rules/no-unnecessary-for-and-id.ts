@@ -7,7 +7,6 @@ const rule: TSESLint.RuleModule<'noLabelFor' | 'noInputId'> = {
     docs: {
       description:
         'Prevent unnecessary `for` and `id` attributes on input elements nested in labels in JSX',
-      recommended: 'recommended',
       url: 'https://github.com/upleveled/eslint-plugin-upleveled/blob/main/docs/rules/no-unnecessary-for-and-id.md',
     },
     messages: {
