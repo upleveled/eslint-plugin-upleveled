@@ -15,6 +15,4 @@ const plugin = {
 
 export type Plugin = typeof plugin;
 
-// `module.exports` here is important, using ESM `export default`
-// here instead does not work
-module.exports = plugin;
+export default plugin;
