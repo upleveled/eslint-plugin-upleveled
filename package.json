@@ -21,7 +21,7 @@
     "@types/eslint": "8.56.10",
     "@types/node": "20.12.12",
     "@typescript-eslint/types": "7.9.0",
-    "eslint-config-upleveled": "8.1.0",
+    "eslint-config-upleveled": "8.1.2",
     "eslint-plugin-upleveled": "2.1.9",
     "typescript": "5.4.5"
   },
