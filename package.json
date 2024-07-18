@@ -20,15 +20,15 @@
   },
   "devDependencies": {
     "@types/eslint": "8.56.10",
-    "@types/node": "20.14.10",
-    "@typescript-eslint/types": "8.0.0-alpha.41",
-    "@typescript-eslint/utils": "8.0.0-alpha.41",
-    "eslint-config-upleveled": "8.5.0",
+    "@types/node": "20.14.11",
+    "@typescript-eslint/types": "8.0.0-alpha.45",
+    "@typescript-eslint/utils": "8.0.0-alpha.45",
+    "eslint-config-upleveled": "8.6.5",
     "eslint-plugin-upleveled": "2.1.12",
     "typescript": "5.5.3"
   },
   "peerDependencies": {
-    "eslint": "^9.6.0"
+    "eslint": "^9.7.0"
   },
   "packageManager": "pnpm@9.5.0",
   "engines": {
