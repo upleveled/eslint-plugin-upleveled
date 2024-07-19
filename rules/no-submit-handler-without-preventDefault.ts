@@ -37,7 +37,6 @@ const rule: TSESLint.RuleModule<'noSubmitHandlerWithoutPreventDefault'> = {
       // eslint-disable-next-line @typescript-eslint/naming-convention
       JSXAttribute(node) {
         if (
-          node.parent.type === 'JSXOpeningElement' &&
           node.parent.name.type === 'JSXIdentifier' &&
           node.parent.name.name === 'form' &&
           node.name.name === 'onSubmit' &&

@@ -23,8 +23,9 @@
     "@types/node": "20.14.11",
     "@typescript-eslint/types": "8.0.0-alpha.45",
     "@typescript-eslint/utils": "8.0.0-alpha.45",
-    "eslint-config-upleveled": "8.6.5",
+    "eslint-config-upleveled": "8.6.7",
     "eslint-plugin-upleveled": "2.1.12",
+    "prettier": "3.3.3",
     "typescript": "5.5.3"
   },
   "peerDependencies": {
