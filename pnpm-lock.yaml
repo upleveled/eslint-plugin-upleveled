@@ -17,8 +17,8 @@ importers:
         version: 9.7.0
     devDependencies:
       '@types/eslint':
-        specifier: 8.56.10
-        version: 8.56.10
+        specifier: 9.6.0
+        version: 9.6.0
       '@types/node':
         specifier: 20.14.12
         version: 20.14.12
@@ -30,7 +30,7 @@ importers:
         version: 8.0.0-alpha.54(eslint@9.7.0)(typescript@5.5.4)
       eslint-config-upleveled:
         specifier: 8.6.13
-        version: 8.6.13(@babel/core@7.21.4)(@types/eslint@8.56.10)(@types/node@20.14.12)(@types/react-dom@18.2.24)(@types/react@18.2.74)(eslint-plugin-import@2.29.1(@typescript-eslint/parser@8.0.0-alpha.51(eslint@9.7.0)(typescript@5.5.4))(eslint@9.7.0))(eslint@9.7.0)(globals@15.0.0)(typescript@5.5.4)
+        version: 8.6.13(@babel/core@7.21.4)(@types/eslint@9.6.0)(@types/node@20.14.12)(@types/react-dom@18.2.24)(@types/react@18.2.74)(eslint-plugin-import@2.29.1(@typescript-eslint/parser@8.0.0-alpha.51(eslint@9.7.0)(typescript@5.5.4))(eslint@9.7.0))(eslint@9.7.0)(globals@15.0.0)(typescript@5.5.4)
       eslint-plugin-upleveled:
         specifier: 2.1.12
         version: 2.1.12(eslint@9.7.0)
@@ -230,8 +230,8 @@ packages:
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
 
-  '@types/eslint@8.56.10':
-    resolution: {integrity: sha512-Shavhk87gCtY2fhXDctcfS3e6FdxWkCx1iUZ9eEUbh7rTqlZT0/IzOkCOVt0fCjcFuZ9FPYfuezTBImfHCDBGQ==}
+  '@types/eslint@9.6.0':
+    resolution: {integrity: sha512-gi6WQJ7cHRgZxtkQEoyHMppPjq9Kxo5Tjn2prSKDSmZrCz8TZ3jSRCeTJm+WoM+oB0WG37bRqLzaaU3q7JypGg==}
 
   '@types/estree@1.0.0':
     resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
@@ -1891,7 +1891,7 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@types/eslint@8.56.10':
+  '@types/eslint@9.6.0':
     dependencies:
       '@types/estree': 1.0.0
       '@types/json-schema': 7.0.15
@@ -2428,12 +2428,12 @@ snapshots:
       find-up-simple: 1.0.0
       parse-gitignore: 2.0.0
 
-  eslint-config-upleveled@8.6.13(@babel/core@7.21.4)(@types/eslint@8.56.10)(@types/node@20.14.12)(@types/react-dom@18.2.24)(@types/react@18.2.74)(eslint-plugin-import@2.29.1(@typescript-eslint/parser@8.0.0-alpha.51(eslint@9.7.0)(typescript@5.5.4))(eslint@9.7.0))(eslint@9.7.0)(globals@15.0.0)(typescript@5.5.4):
+  eslint-config-upleveled@8.6.13(@babel/core@7.21.4)(@types/eslint@9.6.0)(@types/node@20.14.12)(@types/react-dom@18.2.24)(@types/react@18.2.74)(eslint-plugin-import@2.29.1(@typescript-eslint/parser@8.0.0-alpha.51(eslint@9.7.0)(typescript@5.5.4))(eslint@9.7.0))(eslint@9.7.0)(globals@15.0.0)(typescript@5.5.4):
     dependencies:
       '@babel/eslint-parser': 7.24.8(@babel/core@7.21.4)(eslint@9.7.0)
       '@eslint/compat': 1.1.1
       '@next/eslint-plugin-next': 14.2.5
-      '@types/eslint': 8.56.10
+      '@types/eslint': 9.6.0
       '@types/node': 20.14.12
       '@types/react': 18.2.74
       '@types/react-dom': 18.2.24
