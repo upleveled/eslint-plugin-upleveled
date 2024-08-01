@@ -21,15 +21,15 @@
   "devDependencies": {
     "@types/eslint": "9.6.0",
     "@types/node": "20.14.12",
-    "@typescript-eslint/types": "8.0.0-alpha.54",
-    "@typescript-eslint/utils": "8.0.0-alpha.54",
-    "eslint-config-upleveled": "8.6.13",
+    "@typescript-eslint/types": "8.0.0",
+    "@typescript-eslint/utils": "8.0.0",
+    "eslint-config-upleveled": "8.6.14",
     "eslint-plugin-upleveled": "2.1.12",
     "prettier": "3.3.3",
     "typescript": "5.5.4"
   },
   "peerDependencies": {
-    "eslint": "^9.7.0"
+    "eslint": "^9.8.0"
   },
   "packageManager": "pnpm@9.6.0",
   "engines": {
