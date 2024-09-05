@@ -20,10 +20,10 @@
   },
   "devDependencies": {
     "@types/eslint": "9.6.1",
-    "@types/node": "22.5.1",
-    "@typescript-eslint/types": "8.3.0",
-    "@typescript-eslint/utils": "8.3.0",
-    "eslint-config-upleveled": "8.6.15",
+    "@types/node": "22.5.4",
+    "@typescript-eslint/types": "8.4.0",
+    "@typescript-eslint/utils": "8.4.0",
+    "eslint-config-upleveled": "8.6.16",
     "eslint-plugin-upleveled": "2.1.12",
     "prettier": "3.3.3",
     "typescript": "5.5.4"
