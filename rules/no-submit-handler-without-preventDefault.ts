@@ -34,7 +34,6 @@ const rule: TSESLint.RuleModule<'noSubmitHandlerWithoutPreventDefault'> = {
   },
   create(context) {
     return {
-      // eslint-disable-next-line @typescript-eslint/naming-convention
       JSXAttribute(node) {
         if (
           node.parent.name.type === 'JSXIdentifier' &&

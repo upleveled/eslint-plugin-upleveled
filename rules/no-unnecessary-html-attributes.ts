@@ -25,7 +25,6 @@ const rule: TSESLint.RuleModule<'noInputTypeText' | 'noButtonTypeSubmit'> = {
   },
   create(context) {
     return {
-      // eslint-disable-next-line @typescript-eslint/naming-convention
       JSXOpeningElement(node: TSESTree.JSXOpeningElement) {
         if (node.name.type === 'JSXIdentifier' && node.name.name === 'input') {
           const typeAttribute = node.attributes.find(
