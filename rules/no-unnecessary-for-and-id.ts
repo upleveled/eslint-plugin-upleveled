@@ -26,7 +26,6 @@ const rule: TSESLint.RuleModule<'noLabelFor' | 'noInputId'> = {
   },
   create(context) {
     return {
-      // eslint-disable-next-line @typescript-eslint/naming-convention
       JSXElement(node: TSESTree.JSXElement) {
         if (
           node.openingElement.name.type === 'JSXIdentifier' &&

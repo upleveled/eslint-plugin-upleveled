@@ -23,7 +23,6 @@ const rule: TSESLint.RuleModule<'noUnnecessaryInterpolations'> = {
   },
   create(context) {
     return {
-      // eslint-disable-next-line @typescript-eslint/naming-convention
       TemplateLiteral(node: TSESTree.TemplateLiteral) {
         if (
           // Only match single interpolations inside of
