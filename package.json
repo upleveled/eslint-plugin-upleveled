@@ -22,7 +22,7 @@
     "@types/node": "22.10.1",
     "@typescript-eslint/types": "8.17.0",
     "@typescript-eslint/utils": "8.17.0",
-    "eslint-config-upleveled": "8.12.0",
+    "eslint-config-upleveled": "8.12.1",
     "eslint-plugin-upleveled": "2.1.14",
     "prettier": "3.4.2",
     "typescript": "5.7.2"
