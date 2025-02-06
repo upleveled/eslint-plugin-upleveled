@@ -19,9 +19,9 @@
     "prepare": "pnpm build"
   },
   "devDependencies": {
-    "@types/node": "22.12.0",
-    "@typescript-eslint/types": "8.22.0",
-    "@typescript-eslint/utils": "8.22.0",
+    "@types/node": "22.13.1",
+    "@typescript-eslint/types": "8.23.0",
+    "@typescript-eslint/utils": "8.23.0",
     "eslint-config-upleveled": "9.0.0",
     "eslint-plugin-upleveled": "2.1.14",
     "prettier": "3.4.2",
