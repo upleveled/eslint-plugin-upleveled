@@ -4,5 +4,5 @@
   "compilerOptions": {
     "noEmit": false
   },
-  "exclude": ["eslint.config.js", "prettier.config.mjs"]
+  "exclude": ["eslint.config.js", "prettier.config.js"]
 }
