@@ -36,6 +36,9 @@
     "node": ">=18.0.0"
   },
   "pnpm": {
+    "onlyBuiltDependencies": [
+      "unrs-resolver"
+    ],
     "overrides": {
       "@typescript-eslint/types": "$@typescript-eslint/types",
       "@typescript-eslint/utils": "$@typescript-eslint/utils"
