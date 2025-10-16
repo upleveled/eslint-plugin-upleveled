@@ -19,7 +19,7 @@
     "prepare": "pnpm build"
   },
   "devDependencies": {
-    "@types/node": "24.7.0",
+    "@types/node": "24.7.1",
     "@typescript-eslint/types": "8.46.0",
     "@typescript-eslint/typescript-estree": "8.46.0",
     "@typescript-eslint/utils": "8.46.0",
@@ -31,7 +31,7 @@
   "peerDependencies": {
     "eslint": "^9.37.0"
   },
-  "packageManager": "pnpm@10.18.1",
+  "packageManager": "pnpm@10.18.2",
   "engines": {
     "node": ">=18.0.0"
   },
