@@ -20,18 +20,18 @@
   },
   "devDependencies": {
     "@types/node": "25.5.0",
-    "@typescript-eslint/types": "8.57.1",
-    "@typescript-eslint/typescript-estree": "8.57.1",
-    "@typescript-eslint/utils": "8.57.1",
+    "@typescript-eslint/types": "8.57.2",
+    "@typescript-eslint/typescript-estree": "8.57.2",
+    "@typescript-eslint/utils": "8.57.2",
     "eslint-config-upleveled": "10.0.0",
     "eslint-plugin-upleveled": "2.1.15",
     "prettier": "3.8.1",
     "typescript": "5.9.3"
   },
   "peerDependencies": {
-    "eslint": "^10.0.3"
+    "eslint": "^10.1.0"
   },
-  "packageManager": "pnpm@10.32.1",
+  "packageManager": "pnpm@10.33.0",
   "engines": {
     "node": ">=18.0.0"
   },
