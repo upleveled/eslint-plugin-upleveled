@@ -19,7 +19,7 @@
     "prepare": "pnpm build"
   },
   "devDependencies": {
-    "@types/node": "25.9.3",
+    "@types/node": "26.0.1",
     "@typescript-eslint/types": "8.62.0",
     "@typescript-eslint/typescript-estree": "8.62.0",
     "@typescript-eslint/utils": "8.62.0",
