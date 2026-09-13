@@ -1,7 +1,7 @@
 # Allow build scripts for trusted dependencies
 # - https://pnpm.io/settings#allowbuilds
 allowBuilds:
-  unrs-resolver: true
+  unrs-resolver: false
 
 catalog:
   '@typescript-eslint/types': 8.67.0
