@@ -4,8 +4,8 @@ allowBuilds:
   unrs-resolver: false
 
 catalog:
-  '@typescript-eslint/types': 8.67.0
-  '@typescript-eslint/utils': 8.67.0
+  '@typescript-eslint/types': 8.69.0
+  '@typescript-eslint/utils': 8.69.0
 
 # Prevent installation of packages newer than 7 days
 # to mitigate supply chain risks
