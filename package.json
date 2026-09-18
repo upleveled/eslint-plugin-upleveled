@@ -19,17 +19,17 @@
     "prepare": "pnpm build"
   },
   "devDependencies": {
-    "@types/node": "26.4.1",
+    "@types/node": "26.5.1",
     "@typescript-eslint/types": "catalog:",
-    "@typescript-eslint/typescript-estree": "8.69.0",
+    "@typescript-eslint/typescript-estree": "8.70.0",
     "@typescript-eslint/utils": "catalog:",
-    "eslint-config-upleveled": "10.0.3",
+    "eslint-config-upleveled": "10.0.4",
     "eslint-plugin-upleveled": "2.1.15",
     "prettier": "3.9.6",
     "typescript": "6.0.3"
   },
   "peerDependencies": {
-    "eslint": "^10.9.1"
+    "eslint": "^10.10.0"
   },
   "devEngines": {
     "packageManager": {
