@@ -16,6 +16,7 @@
   ],
   "scripts": {
     "build": "tsc --project tsconfig.build.json",
+    "test": "pnpm build && node --test",
     "prepare": "pnpm build"
   },
   "devDependencies": {
