@@ -4,5 +4,10 @@
   "compilerOptions": {
     "noEmit": false
   },
-  "exclude": ["eslint.config.js", "prettier.config.js", "**/*.test.ts"]
+  "exclude": [
+    "eslint.config.js",
+    "prettier.config.js",
+    "**/*.test.ts",
+    "rules/rule-tester-setup.ts"
+  ]
 }
