@@ -21,9 +21,11 @@
   },
   "devDependencies": {
     "@types/node": "26.5.1",
+    "@typescript-eslint/rule-tester": "catalog:",
     "@typescript-eslint/types": "catalog:",
     "@typescript-eslint/typescript-estree": "8.70.0",
     "@typescript-eslint/utils": "catalog:",
+    "eslint": "10.10.0",
     "eslint-config-upleveled": "10.0.4",
     "eslint-plugin-upleveled": "2.1.15",
     "prettier": "3.9.6",

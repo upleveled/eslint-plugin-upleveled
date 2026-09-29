@@ -4,6 +4,7 @@ allowBuilds:
   unrs-resolver: false
 
 catalog:
+  '@typescript-eslint/rule-tester': 8.69.0
   '@typescript-eslint/types': 8.69.0
   '@typescript-eslint/utils': 8.69.0
 

@@ -203,6 +203,12 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+catalogs:
+  default:
+    '@typescript-eslint/rule-tester':
+      specifier: 8.69.0
+      version: 8.69.0
+
 overrides:
   '@typescript-eslint/types': 8.69.0
   '@typescript-eslint/utils': 8.69.0
@@ -210,14 +216,13 @@ overrides:
 importers:
 
   .:
-    dependencies:
-      eslint:
-        specifier: ^10.10.0
-        version: 10.10.0
     devDependencies:
       '@types/node':
         specifier: 26.5.1
         version: 26.5.1
+      '@typescript-eslint/rule-tester':
+        specifier: 'catalog:'
+        version: 8.69.0(eslint@10.10.0)(typescript@6.0.3)
       '@typescript-eslint/types':
         specifier: 8.69.0
         version: 8.69.0
@@ -227,6 +232,9 @@ importers:
       '@typescript-eslint/utils':
         specifier: 8.69.0
         version: 8.69.0(eslint@10.10.0)(typescript@6.0.3)
+      eslint:
+        specifier: 10.10.0
+        version: 10.10.0
       eslint-config-upleveled:
         specifier: 10.0.4
         version: 10.0.4(@types/node@26.5.1)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(@typescript-eslint/utils@8.69.0(eslint@10.10.0)(typescript@6.0.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1)(eslint@10.10.0)(globals@17.12.0)(typescript@6.0.3)
@@ -530,6 +538,13 @@ packages:
     resolution: {integrity: sha512-hFHbTNqhU9G+2eKFXCBVb1tjFT/LceiJ4+HfLO4pTpDI0KHi6iajpcFFkaSQ9gXmCh7n82A0PthaayEdN6mspQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
+      typescript: '>=4.8.4 <6.1.0'
+
+  '@typescript-eslint/rule-tester@8.69.0':
+    resolution: {integrity: sha512-VHKAWEzEeB+XgLzgvkP3eFAkNaKhF1TEBZvjuZ9G8ySp4u6iZjnfBVBwEtXocO/a+g/B32II+WaSf5OcikmAyg==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    peerDependencies:
+      eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
       typescript: '>=4.8.4 <6.1.0'
 
   '@typescript-eslint/scope-manager@8.69.0':
@@ -2311,6 +2326,20 @@ snapshots:
       '@typescript-eslint/tsconfig-utils': 8.70.0(typescript@6.0.3)
       '@typescript-eslint/types': 8.69.0
       debug: 4.4.3
+      typescript: 6.0.3
+    transitivePeerDependencies:
+      - supports-color
+
+  '@typescript-eslint/rule-tester@8.69.0(eslint@10.10.0)(typescript@6.0.3)':
+    dependencies:
+      '@typescript-eslint/parser': 8.69.0(eslint@10.10.0)(typescript@6.0.3)
+      '@typescript-eslint/typescript-estree': 8.69.0(typescript@6.0.3)
+      '@typescript-eslint/utils': 8.69.0(eslint@10.10.0)(typescript@6.0.3)
+      ajv: 6.14.0
+      eslint: 10.10.0
+      json-stable-stringify-without-jsonify: 1.0.1
+      lodash.merge: 4.6.2
+      semver: 7.8.5
       typescript: 6.0.3
     transitivePeerDependencies:
       - supports-color
