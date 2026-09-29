@@ -43,7 +43,7 @@ const rule: TSESLint.RuleModule<'noSubmitHandlerWithoutPreventDefault'> = {
         ) {
           const submitHandlerFunction =
             getFunctionDeclarationOrExpressionByExpression(
-              context.getScope(),
+              context.sourceCode.getScope(node),
               node.value.expression,
             );
 
