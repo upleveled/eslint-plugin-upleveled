@@ -29,7 +29,7 @@
     "eslint-config-upleveled": "10.0.4",
     "eslint-plugin-upleveled": "2.1.15",
     "prettier": "3.9.9",
-    "typescript": "6.0.3"
+    "typescript": "7.0.2"
   },
   "peerDependencies": {
     "eslint": "^10.11.0"
