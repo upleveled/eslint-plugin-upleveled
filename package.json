@@ -20,10 +20,10 @@
     "prepare": "pnpm build"
   },
   "devDependencies": {
-    "@types/node": "26.6.2",
+    "@types/node": "26.6.3",
     "@typescript-eslint/rule-tester": "catalog:",
     "@typescript-eslint/types": "catalog:",
-    "@typescript-eslint/typescript-estree": "8.70.1",
+    "@typescript-eslint/typescript-estree": "8.71.0",
     "@typescript-eslint/utils": "catalog:",
     "eslint": "10.11.0",
     "eslint-config-upleveled": "10.0.4",
