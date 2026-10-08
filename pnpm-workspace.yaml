@@ -1,12 +1,10 @@
-# Allow build scripts for trusted dependencies
-# - https://pnpm.io/settings#allowbuilds
 allowBuilds:
   unrs-resolver: false
 
 catalog:
-  '@typescript-eslint/rule-tester': 8.69.0
-  '@typescript-eslint/types': 8.69.0
-  '@typescript-eslint/utils': 8.69.0
+  '@typescript-eslint/rule-tester': 8.71.0
+  '@typescript-eslint/types': 8.71.0
+  '@typescript-eslint/utils': 8.71.0
 
 # Prevent installation of packages newer than 7 days
 # to mitigate supply chain risks
