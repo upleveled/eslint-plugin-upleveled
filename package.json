@@ -25,14 +25,14 @@
     "@typescript-eslint/types": "catalog:",
     "@typescript-eslint/typescript-estree": "8.72.1",
     "@typescript-eslint/utils": "catalog:",
-    "eslint": "10.13.0",
+    "eslint": "10.14.0",
     "eslint-config-upleveled": "10.0.4",
     "eslint-plugin-upleveled": "2.1.15",
     "prettier": "3.9.10",
     "typescript": "6.0.3"
   },
   "peerDependencies": {
-    "eslint": "^10.13.0"
+    "eslint": "^10.14.0"
   },
   "devEngines": {
     "packageManager": {
